@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:darkgrey;
+
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+}
+
+.h{
+    padding-top: 22px;
+    font-family: "Caveat", cursive;
+    text-decoration: underline;
+    font-size: -webkit-xxx-large;
+    padding-top: 5px;
+    font-family: "Caveat", cursive;
+}
+
+
+header ul{
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    padding-right: 70px;
+}
+
+header ul li{
+    list-style: none;
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addTaskBtn {
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.edit {
+    color: #007bff;
+}
+
+button.delete {
+    color: #dc3545;
+}
+
+button.complete {
+    color: #28a745;
+}
+
+button.start-timer {
+    color: #007bff;
+}
+
+/* button.reset-all {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+} */
+
+#resetAllBtn{
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button.reset-all:hover {
+    background-color: #c82333;
+}
+
+.timer {
+    font-size: 0.9em;
+    color: #555;
+}
